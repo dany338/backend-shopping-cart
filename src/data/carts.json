@@ -1,12 +1,1 @@
-[
-  {
-    "product": {
-      "id": 1,
-      "name": "Product 1",
-      "price": 10,
-      "image": "/images/products/1623735-00-A_0_2000.jpg",
-      "rating": 1
-    },
-    "quantity": 2
-  }
-]
+[]

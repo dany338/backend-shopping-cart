@@ -7,7 +7,7 @@
 - [🆕 Endpoints](#endpoints)
   - [Add a product to cart](#add-a-product-to-cart)
   - [Modify the quantity of a product in the cart](#modify-the-quantity-of-a-product-in-the-cart)
-  - [Delete a product from the cart:](#delete-a-product-from-the-cart:)
+  - [Delete a product from the cart](#delete-a-product-from-the-cart)
   - [List products](#list-products)
   - [List cart](#list-cart)
 

@@ -7,7 +7,5 @@
 
 1. Clone the project
 2. ```npm install```
-3. Clone the ```.env.template``` file and rename it to ```.env```
-4. Change the environment variables
-5. Start the database
-6. ```npm start```
+3. Start the database
+4. ```npm start```

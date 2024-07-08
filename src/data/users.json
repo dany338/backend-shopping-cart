@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Test No 1",
+    "email": "test1@google.com",
+    "password": "$2a$10$v.g3G9Ke2LL1s4/EliJyuuv2SxwsXvDZwRNZuwzaLUZUyhpmTPbSe",
+    "roles": ["user"],
+    "isActive": true,
+    "emailVerified": true,
+    "image": "/images/users/trabajador.png"
+  },
+  {
+    "id": 2,
+    "name": "Daniel Gallo",
+    "email": "dany338+test1@gmail.com",
+    "password": "$2a$10$4c6d84yxXQbzvX6DZ7yZKOc4mv9x7/tskwPxLjgJicmDob0bMZp9y",
+    "roles": ["admin"],
+    "isActive": true,
+    "emailVerified": true,
+    "image": "/images/users/avatar.webp"
+  }
+]

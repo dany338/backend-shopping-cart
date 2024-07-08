@@ -1,18 +1,23 @@
-### Table of Contents
+### 🆕 Table of Contents
 
-- [Clone the project](#clone-the-project)
-- [Setup](#setup)
-- [Local Development](#local-development)
-- [Production](#production)
-- [Endpoints](#endpoints)
+- [🆕 Clone the project](#clone-the-project)
+- [🆕 Setup](#setup)
+- [🆕 Local Development](#local-development)
+- [🆕 Production](#production)
+- [🆕 Endpoints](#endpoints)
+  - [Add a product to cart](#add-a-product-to-cart)
+  - [Modify the quantity of a product in the cart](#modify-the-quantity-of-a-product-in-the-cart)
+  - [Delete a product from the cart:](#delete-a-product-from-the-cart:)
+  - [List products](#list-products)
+  - [List cart](#list-cart)
 
-### 🆕 Clone the project
+### Clone the project
 
 ```shell
 git clone git@github.com:dany338/backend-shopping-cart.git
 ```
 
-### 🆕 Setup
+### Setup
 
 Using npm:
 
@@ -20,20 +25,21 @@ Using npm:
 npm install
 ```
 
-### 🆕 Local Development
+### Local Development
 
 ```shell
 npm run dev
 ```
 
-### 🆕 Production
+### Production
 ```shell
 npm start
 ```
 
-### 🆕 Endpoints
+### Endpoints
 
-#### `Add a product to cart:` http://localhost:3001/api/cart
+#### `Add a product to cart:`
+- http://localhost:3001/api/cart
 ```json
 // method: POST:
 {
@@ -56,7 +62,8 @@ npm start
 ]
 ```
 
-#### `Modify the quantity of a product in the cart:` http://localhost:3001/api/cart/1
+#### `Modify the quantity of a product in the cart:`
+- http://localhost:3001/api/cart/1
 ```json
 // method: PUT:
 {
@@ -78,7 +85,8 @@ npm start
 ]
 ```
 
-#### `Delete a product from the cart:` http://localhost:3001/api/cart/1
+#### `Delete a product from the cart:`
+- http://localhost:3001/api/cart/1
 ```json
 // method: DELETE:
 
@@ -86,7 +94,8 @@ npm start
 []
 ```
 
-#### `List products:` http://localhost:3001/api/products
+#### `List products:`
+- http://localhost:3001/api/products
 ```json
 // method: GET:
 
@@ -165,7 +174,8 @@ npm start
 ]
 ```
 
-#### `List cart:` http://localhost:3001/api/carts
+#### `List cart:`
+- http://localhost:3001/api/carts
 ```json
 // method: GET:
 
